@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+ul {
+  list-style: none;
+}
+/* колір основного тексту #2E2F42 */
+/* другорядний колір тексту #434455 */
+/* білий текст #FFFFFF */
+/* синій колір тексту #4D5AE5 */
+/* під вебстудіо текст #E7E9FC */
+
+.logo-decor span {
+  color: #2e2f42;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
+}
