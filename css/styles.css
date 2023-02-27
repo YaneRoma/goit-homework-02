@@ -8,9 +8,35 @@
   --footer-text-color: #e7e9fc;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-title-color);
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
 }
 
 .list {
@@ -36,6 +62,8 @@ body {
 /*----------- header -----------*/
 
 .header {
+  border-bottom: 1px solid var(--footer-text-color);
+  padding: 24px 0px;
 }
 .header-navigation {
 }
@@ -108,9 +136,12 @@ body {
   background: var(--main-title-color);
 }
 .hero-main-title {
+  margin-top: 0;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--accent-color);
 }
 .hero-list {
@@ -129,6 +160,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding: 16px 32px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -181,6 +213,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--main-title-color);
 }
 .about-item-text {
@@ -194,6 +227,8 @@ body {
 .examples {
 }
 .examples-title {
+  margin-top: 0;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -210,9 +245,12 @@ body {
 
 /*----------- Team -----------*/
 .team {
+  padding: 120px 0 72px;
   background: var(--footer-logo-color);
 }
 .team-title {
+  margin-top: 0;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -221,9 +259,13 @@ body {
   color: var(--main-title-color);
 }
 .team-list {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-item {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-item-title {
   font-weight: 500;
@@ -242,9 +284,11 @@ body {
 /*----------- Footer -----------*/
 
 .footer {
+  padding: 100px 0px;
   background: var(--main-title-color);
 }
 .footer-logo {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -252,6 +296,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
   color: var(--secondary-accent-color);
 }
 .footer-logo span {
